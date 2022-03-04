@@ -14,6 +14,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="/models">
+          <a>Models</a>
+        </Link>
+      </li>
+      <li>
         <Link
           href="/post/[...slug]"
           as="/post/2020/first-post/with/catch/all/routes"
